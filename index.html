@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <h2>UTF-8 與 ANSI 測試</h2>
+
+  輸入的檔案編碼：
+  <form id="form_in_code">
+    <input type="radio" name="in_code" value="ANSI" checked> ANSI
+    <input type="radio" name="in_code" value="UTF" checked>UTF-8
+  </form>
+  <br> 輸出的檔案編碼：
+  <form id="form_out_code">
+    <input type="radio" name="out_code" value="noBOM" checked> UTF-8(無BOM)
+    <input type="radio" name="out_code" value="BOM" checked>UTF-8(有BOM)
+  </form>
+  <hr>
+
+  <h3>輸入的檔案</h3>
+  <input type="file" id="inputFile" />
+  <hr>
+
+  <h3>讀取結果</h3>
+  <div id="div_result">result</div>
+  <hr>
+
+  <h3>下載輸出的檔案</h3>
+  <a type="button" id="btn_downloadCSV">Download CSV</a>
+  <hr>
+  <a href="">重新整理</a>
+  <br>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

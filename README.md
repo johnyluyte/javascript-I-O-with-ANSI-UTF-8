@@ -16,7 +16,7 @@
 
 若欲讀入的檔案為 UTF-8 編碼：
 
-    reader.readAsText(file,);
+    reader.readAsText(file);
 
 若欲輸出的檔案為 UTF-8 ( 無 BOM )
 

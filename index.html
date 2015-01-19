@@ -2,40 +2,46 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <style>
+    h4 {
+        color: red;
+    }
+    </style>
 </head>
 
 <body>
-  <h2>UTF-8 與 ANSI 測試</h2>
+    <p>
+        這個簡單的小程式示範如何用 javascript 讀入、輸出 ANSI 與 UTF-8 編碼的檔案。
+    </p>
 
-  輸入的檔案編碼：
-  <form id="form_in_code">
-    <input type="radio" name="in_code" value="ANSI" checked> ANSI
-    <input type="radio" name="in_code" value="UTF" checked>UTF-8
-  </form>
-  <br> 輸出的檔案編碼：
-  <form id="form_out_code">
-    <input type="radio" name="out_code" value="noBOM" checked> UTF-8(無BOM)
-    <input type="radio" name="out_code" value="BOM" checked>UTF-8(有BOM)
-  </form>
-  <hr>
+    <h4>1. 設定</h4> 輸入的檔案編碼：
+    <form id="form_in_code">
+        <input type="radio" name="in_code" value="ANSI" checked> ANSI
+        <input type="radio" name="in_code" value="UTF" checked>UTF-8
+    </form>
+    <br> 輸出的檔案編碼：
+    <form id="form_out_code">
+        <input type="radio" name="out_code" value="noBOM" checked> UTF-8(無BOM)
+        <input type="radio" name="out_code" value="BOM" checked>UTF-8(有BOM)
+    </form>
 
-  <h3>輸入的檔案</h3>
-  <input type="file" id="inputFile" />
-  <hr>
+    <h4>2. 輸入檔案</h4>
+    <input type="file" id="inputFile" />
 
-  <h3>讀取結果</h3>
-  <div id="div_result">result</div>
-  <hr>
+    <h4>3. 讀取結果</h4>
+    <div id="div_result">result</div>
 
-  <h3>下載輸出的檔案</h3>
-  <a type="button" id="btn_downloadCSV">Download CSV</a>
-  <hr>
-  <a href="">重新整理</a>
-  <br>
+    <h4>4. 下載輸出的檔案</h4>
+    <a type="button" id="btn_downloadCSV">按此下載</a>
+    <br>
+    <br>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="index.js"></script>
+    <hr>
+    <a href="">(按此重新整理)</a> / Fork me on <a href="https://github.com/johnyluyte/javascript-I-O-with-ANSI-UTF-8" target="_blank">Github</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

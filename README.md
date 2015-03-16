@@ -11,13 +11,13 @@
 
 Demo page:
 
-- [http://chunnorris.net/demo/js_io_with_ansi_utf/](http://chunnorris.net/demo/js_io_with_ansi_utf/)
+- [http://chunnorris.cc/demo/js_io_with_ansi_utf/](http://chunnorris.cc/demo/js_io_with_ansi_utf/)
 
 Sample files:
 
-- [csv data with ANSI encoding](http://chunnorris.net/demo/js_io_with_ansi_utf/sample/dataANSI.csv)
-- [csv data with UTF-8(w/o BOM) encoding](http://chunnorris.net/demo/js_io_with_ansi_utf/sample/dataUTFnoBOM.csv)
-- [csv data with UTF-8(with BOM) encoding](http://chunnorris.net/demo/js_io_with_ansi_utf/sample/dataUTFwithBOM.csv)
+- [csv data with ANSI encoding](http://chunnorris.cc/demo/js_io_with_ansi_utf/sample/dataANSI.csv)
+- [csv data with UTF-8(w/o BOM) encoding](http://chunnorris.cc/demo/js_io_with_ansi_utf/sample/dataUTFnoBOM.csv)
+- [csv data with UTF-8(with BOM) encoding](http://chunnorris.cc/demo/js_io_with_ansi_utf/sample/dataUTFwithBOM.csv)
 
 
 ## 使用方式 Usage
